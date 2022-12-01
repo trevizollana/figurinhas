@@ -77,8 +77,8 @@ body {
 header {
   padding: 75px 0;
 }
-
-.flip-card {
+/*
+.card {
   display: inline-block;
   width: 354px;
   height: 508px;
@@ -93,9 +93,9 @@ header {
 
   user-select: none;
   -webkit-user-select: none;
-}
+}*/
 
-.flip-card > img {
+.card > img {
   width: 150px;
   height: 150px;
   object-fit: cover;
@@ -180,7 +180,7 @@ header {
 
 .flip-card-front {
   background-image: url('/bg-ignite.svg');
-  background-color: blue;
+  /*background-color: blue;*/
 
   color: var(--branco-fonte); 
  
@@ -223,8 +223,8 @@ header {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
 .flip-card {
   background-color: transparent;
-  width: 280px;
-  height: 440px;
+  /*width: 280px;
+  height: 440px;*/
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
 }
 
@@ -252,17 +252,17 @@ header {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
+/* Style the front side (fallback if image is missing) 
 .flip-card-front {
-  background-color: dodgerblue;
+  /*background-color: dodgerblue;
   border-radius: 3%;
   color: var(--preto-fonte);
 }
 
-/* Style the back side */
+/* Style the back side 
 .flip-card-back {
-  background-color: dodgerblue;
+  /*background-color: dodgerblue;
   color: var(--branco-fonte);
   border-radius: 3%;
   transform: rotateY(180deg);
-}
+}*/
